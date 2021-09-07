@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+html, body {
+    overflow-x: hidden;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/pictures/coffeeOne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+#containerHeader{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 20px;
+    
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 11rem;
+}
+
+.nav-text {
+    text-decoration: none;
+    padding-right: 2rem;
+    font-family: 'Staatliches', cursive;
+    color: rgb(177, 177, 177);
+    font-size: 1.5rem;
+    transition: color .2s ease-in-out;
+}
+
+.nav-text:hover {
+    color: #ffffff;
+}
+
+#containerMainTopo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 50vw;
+}
+
+.boxText {
+    display: flex;
+    height: 50%;
+    width: 90%;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+
+}
+
+.boxTextH2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5rem;
+    color: #ffffff;
+    transition: scale .6s ease-in-out;
+    margin: 0;
+}
+
+.boxTextH2:hover {
+    transform: scale(1.1);
+}
+
+#containerMainMeio {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F232C;
+}
+
+.boxImage {
+    height: 100vh;
+    width: 50vw;
+    background-image: url(../assets/pictures/coffeMain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.boxTextMaim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    background-color: #1F232C;
+}
+
+.textMainH3 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#mainMeioAbaixo {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../assets/pictures/CoffeMainTwo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mainMeioAbaixoH1 {
+    margin-left: 13rem;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+}
+
+.containerBoxAbaixo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.mainMeioAbaixoBox {
+    display: flex;
+    width: 1500px;
+    height: 675.5px;
+    background-color: #83746eb4;
+}
+
+.mainMeioAbaixoBoxUm {
+    display: flex;
+    width: 500px;
+    height: 100%;
+    background-color: brown;
+}
+
+.imgMainMeioAbaixoBoxUm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/pictures/conde-boa-vista.png);
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.localTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+}
+
+.localParagraph {
+    display: flex;
+    color: #DFD6D1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+.fone {
+    display: flex;
+    color: #DFD6D1;
+    font-size: 1rem;
+    text-align: center;  
+}
+
+#imgMainMeioAbaixoBoxDois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 500px;
+    background-image: url(../assets/pictures/boa-viagem.png);
+    background-position: center;
+}
+
+
+.localTitleTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+}
+
+.localParagraphTwo {
+    display: flex;
+    color: #DFD6D1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+.foneTwo {
+    display: flex;
+    color: #DFD6D1;
+    font-size: 1rem;
+    text-align: center;  
+}
+
+
+#imgMainMeioAbaixoBoxTres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 500px;
+    background-image: url(../assets/pictures/olinda.png);
+    background-position: center;
+    background-position: center;
+}
+
+
+.localTitleThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+}
+
+.localParagraphThree {
+    display: flex;
+    color: #DFD6D1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+}
+
+.foneThree {
+    display: flex;
+    color: #DFD6D1;
+    font-size: 1rem;
+    text-align: center;  
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    justify-content: center;
+    background-color: #1F232C;
+}
+
+.foto {
+    height: 100vh;
+    width: 50vw;
+    background-image: url(../assets/pictures/CoffeeTwo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    display: flex;
+    font-family: Comfortaa, sans-serif;
+    color: #DFD6D1;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#name {
+    padding: 1rem 2rem;
+    width: 300px;
+    background-color: #1F232C; 
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffffff;
+    outline: none; 
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#email {
+    padding: 1rem 2rem;
+    width: 300px;
+    background-color: #1F232C; 
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffffff;
+    outline: none;
+}
+
+#email .input::placeholder {
+    color: #ffffff;
+}
+
+#password {
+    padding: 1rem 2rem;
+    color: #ffffff;
+    width: 300px;
+    background-color: #1F232C; 
+    border: none;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffffff;
+    outline: none;  
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+#botao {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    outline: none;
+    background-color: #83746E;
+    font-family: Comfortaa, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F232C;
+}
+
+.footerH1 {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
